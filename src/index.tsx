@@ -219,7 +219,7 @@ const Toast = (props: ToastProps) => {
   function getLoadingIcon() {
     if (icons?.loading) {
       return (
-        <div className="loader" data-visible={toastType === 'loading'}>
+        <div className="sonner-loader" data-visible={toastType === 'loading'}>
           {icons.loading}
         </div>
       );
